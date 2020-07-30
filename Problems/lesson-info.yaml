@@ -1,0 +1,23 @@
+content:
+- 2 weeks after
+- 30 years before and after
+- Print dates of a year with an offset
+- 10 days before
+- Getting information on a day
+- Find all mondays
+- The first and the last day of a month
+- Convert numbers to days
+- The first day of a month or not
+- The last day of a month
+- The n-th day from the end of a month
+- Seconds since start of a day
+- Some hours and minutes ago
+- Seconds between two time points
+- Return time without seconds
+- Subtracting hours and adding minutes
+- Merging date-time instances
+- Whole hours between two date-time pairs
+- Add days and subtract hours
+- Add 11 hours and print the date
+- Adding N minutes
+- The passed hours since the beginning of year

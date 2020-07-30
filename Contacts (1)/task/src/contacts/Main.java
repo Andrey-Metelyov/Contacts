@@ -9,12 +9,11 @@ public class Main {
     static List<Contact> contacts = new ArrayList<>();
     public static void main(String[] args) {
         menu();
-        System.out.println("A record created!\n" +
-                "A Phone Book with a single record created!");
     }
 
     private static void menu() {
         while (true) {
+            System.out.println("Enter action (add, remove, edit, count, list, exit):");
             String choice = scanner.nextLine();
             switch (choice) {
                 case "add":
@@ -41,21 +40,21 @@ public class Main {
     private static void list() {
         int counter = 1;
         for (Contact contact : contacts) {
-            System.out.println(counter + ". "
-                    + contact.name + " "
-                    + contact.surname + ", "
-                    + contact.number);
+            System.out.println(counter++ + ". "
+                    + contact.getName() + " "
+                    + contact.getSurname() + ", "
+                    + contact.getNumber());
         }
     }
 
     private static void add() {
         Contact contact = new Contact();
         System.out.print("Enter the name: ");
-        contact.name = scanner.nextLine();
+        contact.setName(scanner.nextLine());
         System.out.print("Enter the surname: ");
-        contact.surname = scanner.nextLine();
+        contact.setSurname(scanner.nextLine());
         System.out.print("Enter the number: ");
-        contact.number = scanner.nextLine();
+        contact.setNumber(scanner.nextLine());
         contacts.add(contact);
         System.out.println("The record added.");
     }
@@ -63,6 +62,12 @@ public class Main {
     private static void remove() {
         if (contacts.isEmpty()) {
             System.out.println("No records to remove!");
+        } else {
+            list();
+            System.out.print("Select a record: ");
+            int number = Integer.parseInt(scanner.nextLine());
+            contacts.remove(number - 1);
+            System.out.println("The record removed!");
         }
     }
 
@@ -75,6 +80,23 @@ public class Main {
             int number = Integer.parseInt(scanner.nextLine());
             System.out.print("Select a field (name, surname, number): ");
             String field = scanner.nextLine();
+            Contact contact = contacts.get(number - 1);
+            switch (field) {
+                case "name":
+                    System.out.print("Enter name: ");
+                    contact.setName(scanner.nextLine());
+                    break;
+                case "surname":
+                    System.out.print("Enter surname: ");
+                    contact.setSurname(scanner.nextLine());
+                    break;
+                case "number":
+                    System.out.print("Enter number: ");
+                    contact.setNumber(scanner.nextLine());
+                    break;
+            }
+            contacts.set(number - 1, contact);
+            System.out.println("The record updated!");
         }
     }
 
