@@ -2,7 +2,14 @@ class Determiner {
 
     public static void determineWhoIsWho(Employee[] employees) {
         for (Employee employee : employees) {
-            System.out.println("EMP");
+//            System.out.println("EMP");
+            if (employee.getClass() == Developer.class) {
+                System.out.println("DEV");
+            } else if (DataAnalyst.class.isInstance(employee)) {
+                System.out.println("DA");
+            } else if (employee.getClass() == Employee.class) {
+                System.out.println("EMP");
+            }
         }
     }
 }

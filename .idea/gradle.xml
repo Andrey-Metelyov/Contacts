@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/Problems/Add days and subtract hours" />
             <option value="$PROJECT_DIR$/Problems/Adding N minutes" />
             <option value="$PROJECT_DIR$/Problems/Convert numbers to days" />
+            <option value="$PROJECT_DIR$/Problems/Counting 2D shapes" />
             <option value="$PROJECT_DIR$/Problems/Find all mondays" />
             <option value="$PROJECT_DIR$/Problems/Getting information on a day" />
             <option value="$PROJECT_DIR$/Problems/Merging date-time instances" />
@@ -29,7 +30,9 @@
             <option value="$PROJECT_DIR$/Problems/Seconds between two time points" />
             <option value="$PROJECT_DIR$/Problems/Seconds since start of a day" />
             <option value="$PROJECT_DIR$/Problems/Some hours and minutes ago" />
+            <option value="$PROJECT_DIR$/Problems/Sort out the classes" />
             <option value="$PROJECT_DIR$/Problems/Subtracting hours and adding minutes" />
+            <option value="$PROJECT_DIR$/Problems/Sum of the areas" />
             <option value="$PROJECT_DIR$/Problems/The first and the last day of a month" />
             <option value="$PROJECT_DIR$/Problems/The first day of a month or not" />
             <option value="$PROJECT_DIR$/Problems/The last day of a month" />
