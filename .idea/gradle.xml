@@ -22,7 +22,9 @@
             <option value="$PROJECT_DIR$/Problems/Adding N minutes" />
             <option value="$PROJECT_DIR$/Problems/Convert numbers to days" />
             <option value="$PROJECT_DIR$/Problems/Counting 2D shapes" />
+            <option value="$PROJECT_DIR$/Problems/Don't be late again" />
             <option value="$PROJECT_DIR$/Problems/Find all mondays" />
+            <option value="$PROJECT_DIR$/Problems/Find the latest date-time" />
             <option value="$PROJECT_DIR$/Problems/Getting information on a day" />
             <option value="$PROJECT_DIR$/Problems/Merging date-time instances" />
             <option value="$PROJECT_DIR$/Problems/Print dates of a year with an offset" />
@@ -35,6 +37,7 @@
             <option value="$PROJECT_DIR$/Problems/Sum of the areas" />
             <option value="$PROJECT_DIR$/Problems/The first and the last day of a month" />
             <option value="$PROJECT_DIR$/Problems/The first day of a month or not" />
+            <option value="$PROJECT_DIR$/Problems/The intersection of time ranges" />
             <option value="$PROJECT_DIR$/Problems/The last day of a month" />
             <option value="$PROJECT_DIR$/Problems/The n-th day from the end of a month" />
             <option value="$PROJECT_DIR$/Problems/The passed hours since the beginning of year" />
