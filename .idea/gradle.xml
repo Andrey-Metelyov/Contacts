@@ -26,6 +26,8 @@
             <option value="$PROJECT_DIR$/Problems/Find all mondays" />
             <option value="$PROJECT_DIR$/Problems/Find the latest date-time" />
             <option value="$PROJECT_DIR$/Problems/Getting information on a day" />
+            <option value="$PROJECT_DIR$/Problems/How many date-time pairs match the range" />
+            <option value="$PROJECT_DIR$/Problems/Is the date between the two other dates" />
             <option value="$PROJECT_DIR$/Problems/Merging date-time instances" />
             <option value="$PROJECT_DIR$/Problems/Print dates of a year with an offset" />
             <option value="$PROJECT_DIR$/Problems/Return time without seconds" />
@@ -35,6 +37,7 @@
             <option value="$PROJECT_DIR$/Problems/Sort out the classes" />
             <option value="$PROJECT_DIR$/Problems/Subtracting hours and adding minutes" />
             <option value="$PROJECT_DIR$/Problems/Sum of the areas" />
+            <option value="$PROJECT_DIR$/Problems/The New Year is coming (or not)" />
             <option value="$PROJECT_DIR$/Problems/The first and the last day of a month" />
             <option value="$PROJECT_DIR$/Problems/The first day of a month or not" />
             <option value="$PROJECT_DIR$/Problems/The intersection of time ranges" />
